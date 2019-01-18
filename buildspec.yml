@@ -11,5 +11,5 @@ phases:
      - npm build
  post_build:
    commands:
-   	 - aws --version 
-     - aws s3 sync --delete . "s3://github.build"
+    - aws --version 
+    - aws s3 sync --delete . "s3://github.build"
